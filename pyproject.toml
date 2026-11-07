@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pba-autopack"
+version = "2025.1.0"
+authors = [
+  { name = "Akash Tanna", email = "Poweredbyakash@gmail.com" },
+  { name = "Powered By Akash", email = "support@poweredbyakash.in" },
+]
+description = "Python COM Automation Engine & High-Precision CAD Drafting Toolkit for AutoCAD"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+dependencies = [
+    "comtypes",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+]
+keywords = ["autocad", "cad", "automation", "comtypes", "engineering", "drafting", "pba"]
+
+[project.urls]
+"Homepage" = "https://github.com/Powered-By-Akash/PBA-AutoPack"
+"Website" = "https://www.poweredbyakash.in/"
+"Organization" = "https://github.com/Powered-By-Akash"
+"Bug Tracker" = "https://github.com/Powered-By-Akash/PBA-AutoPack/issues"
